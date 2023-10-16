@@ -26,6 +26,7 @@ MonoBehaviour:
   - {fileID: 11411124}
   - {fileID: 11437076}
   - {fileID: 11411708}
+  - {fileID: 6000968775676153912}
   inEdition: 0
   itemsHidden: 1
 --- !u!114 &11411124
@@ -40,9 +41,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: KeyCard Blue
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 10
   description: Blue Keycard to open doors
   type: 0
@@ -79,9 +77,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: KeyCard Gold
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 12
   description: Gold Keycard to open doors
   type: 0
@@ -118,9 +113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: KeyCard Red
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 11
   description: Red Keycard to open doors
   type: 0
@@ -157,9 +149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Shield
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 9
   description: 'Melee Shield
 
@@ -213,9 +202,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Short Katana
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 1
   description: Melee Weapon
   type: 1
@@ -269,9 +255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Sword
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 7
   description: Melee Weapon
   type: 1
@@ -325,9 +308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Great Katana
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 8
   description: Melee Weapon
   type: 1
@@ -381,9 +361,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Shield
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 6
   description: 'Melee Shield
 
@@ -435,11 +412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Max Health Potion
   m_EditorClassIdentifier: 
-  itemsToCraft:
-  - item: {fileID: 114000014017037032}
-    amount: 3
-  canCraft: 1
-  price: 0
   id: 5
   description: Increases the MaxHealth
   type: 0
@@ -480,13 +452,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Axe
   m_EditorClassIdentifier: 
-  itemsToCraft:
-  - item: {fileID: 114000011454979648}
-    amount: 1
-  - item: {fileID: 114000014005472098}
-    amount: 2
-  canCraft: 1
-  price: 0
   id: 0
   description: Melee Weapon
   type: 1
@@ -540,9 +505,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Stamina Up Potion
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 4
   description: Increase Stamina
   type: 0
@@ -583,9 +545,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Short Sword
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 3
   description: Melee Weapon
   type: 1
@@ -639,9 +598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
   m_Name: Health Potion
   m_EditorClassIdentifier: 
-  itemsToCraft: []
-  canCraft: 1
-  price: 0
   id: 2
   description: Recover Health
   type: 0
@@ -663,6 +619,48 @@ MonoBehaviour:
   canBeDestroyed: 1
   EnableAnim: 
   DisableAnim: 
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6000968775676153912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: "K\u0151b\xE1nyai"
+  m_EditorClassIdentifier: 
+  id: 13
+  description: "huzzad le azt jobban leszel \xF6reg"
+  type: 0
+  icon: {fileID: 21300000, guid: 3d84f70faaf79a045a5311fd94fe0c20, type: 3}
+  stackable: 1
+  maxStack: 3
+  amount: 0
+  originalObject: {fileID: 919132149155446097, guid: c603ca3f47ec1814c8f5c2d24b6a71b3,
+    type: 3}
+  dropObject: {fileID: 919132149155446097, guid: c603ca3f47ec1814c8f5c2d24b6a71b3,
+    type: 3}
+  attributes:
+  - name: 0
+    value: 50
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
   enableDelayTime: 0.5
   disableDelayTime: 0.5
   customHandler: 
