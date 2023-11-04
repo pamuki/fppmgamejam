@@ -42,6 +42,59 @@ MonoBehaviour:
   onDestroy:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-3100000945341240553
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: "StopT\xE1bla"
+  m_EditorClassIdentifier: 
+  id: 14
+  description: Melee Weapon
+  type: 1
+  icon: {fileID: 21300000, guid: 628952d72415e944c86703e1624f83e7, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 442579886092451563, guid: fc33f0f65af5e114da4828b47998f2f6,
+    type: 3}
+  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
+  attributes:
+  - name: 2
+    value: 30
+    isOpen: 0
+    isBool: 0
+  - name: 3
+    value: 35
+    isOpen: 0
+    isBool: 0
+  - name: 4
+    value: 60
+    isOpen: 0
+    isBool: 0
+  - name: 5
+    value: 85
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: HighBack
+  DisableAnim: HighBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +122,8 @@ MonoBehaviour:
   - {fileID: 11437076}
   - {fileID: 11411708}
   - {fileID: -7589731051934611003}
-  inEdition: 1
+  - {fileID: -3100000945341240553}
+  inEdition: 0
   itemsHidden: 1
 --- !u!114 &11411124
 MonoBehaviour:
@@ -492,12 +546,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
-  m_Name: Axe
+  m_Name: "Stop T\xE1bla"
   m_EditorClassIdentifier: 
   id: 0
   description: Melee Weapon
   type: 1
-  icon: {fileID: 21300000, guid: b2158c09d5bc7284989f53a47f7638e3, type: 3}
+  icon: {fileID: 21300000, guid: 0f36afa7232172842913559590c88718, type: 3}
   stackable: 0
   maxStack: 1
   amount: 0
