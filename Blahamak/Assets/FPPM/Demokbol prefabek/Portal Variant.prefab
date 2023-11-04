@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &300631219634774962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1000010810589070, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010903160296, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_Name
+      value: Portal Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012504290124, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012504290124, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012504290124, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.251
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012504290124, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 39.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012504290124, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50000054
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012504290124, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012504290124, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.86602515
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012504290124, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012504290124, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012504290124, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -120.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012504290124, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010969189840, guid: 4f343be60ec8766448d999627b637b4a,
+        type: 3}
+      propertyPath: levelToLoad
+      value: Invector_Melee_GameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010969189840, guid: 4f343be60ec8766448d999627b637b4a,
+        type: 3}
+      propertyPath: spawnPointName
+      value: spawnPoint@1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011979259162, guid: 4f343be60ec8766448d999627b637b4a,
+        type: 3}
+      propertyPath: inEdit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629182585290694135, guid: 4f343be60ec8766448d999627b637b4a,
+        type: 3}
+      propertyPath: inEdit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629182585290694135, guid: 4f343be60ec8766448d999627b637b4a,
+        type: 3}
+      propertyPath: comment
+      value: <size=20>This portal is a example  to Teleport player to other position
+        (or/and) to other scene</size>
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4f343be60ec8766448d999627b637b4a, type: 3}
