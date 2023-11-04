@@ -3,7 +3,12 @@ guid: 51405cb42a68c6d4391df6843fa9f3e9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_stop_balta
+    second: {fileID: 2100000, guid: 5a90271a88196ff49bb1756e44cb5cf8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
