@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3602cfd0ac79644a19fea8f4fd1b49, type: 3}
+  m_Name: kobi_itemlist
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 1554828170132296649}
+  inEdition: 0
+  itemsHidden: 1
+--- !u!114 &1554828170132296649
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: "K\u0151b\xE1nyai"
+  m_EditorClassIdentifier: 
+  id: 13
+  description: "huzzad le azt jobban leszel \xF6reg"
+  type: 0
+  icon: {fileID: 21300000, guid: 3d84f70faaf79a045a5311fd94fe0c20, type: 3}
+  stackable: 1
+  maxStack: 3
+  amount: 1
+  originalObject: {fileID: 919132149155446097, guid: c603ca3f47ec1814c8f5c2d24b6a71b3,
+    type: 3}
+  dropObject: {fileID: 919132149155446097, guid: c603ca3f47ec1814c8f5c2d24b6a71b3,
+    type: 3}
+  attributes:
+  - name: 0
+    value: 50
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
