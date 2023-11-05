@@ -123,7 +123,7 @@ MonoBehaviour:
   - {fileID: 11411708}
   - {fileID: -7589731051934611003}
   - {fileID: -3100000945341240553}
-  inEdition: 0
+  inEdition: 1
   itemsHidden: 1
 --- !u!114 &11411124
 MonoBehaviour:
@@ -551,7 +551,7 @@ MonoBehaviour:
   id: 0
   description: Melee Weapon
   type: 1
-  icon: {fileID: 21300000, guid: 0f36afa7232172842913559590c88718, type: 3}
+  icon: {fileID: 21300000, guid: fcc6b192a76483943b7d012961cb2549, type: 3}
   stackable: 0
   maxStack: 1
   amount: 0
@@ -560,7 +560,7 @@ MonoBehaviour:
   dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 3}
   attributes:
   - name: 2
-    value: 30
+    value: 33
     isOpen: 0
     isBool: 0
   - name: 3
