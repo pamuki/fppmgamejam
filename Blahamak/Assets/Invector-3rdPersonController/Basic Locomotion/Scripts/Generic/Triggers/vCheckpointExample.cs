@@ -15,6 +15,8 @@ namespace Invector.Utils
     {
         vGameController gm;
 
+        
+
         public UnityEvent onTriggerEnter;
 
         void Start()
@@ -27,7 +29,8 @@ namespace Invector.Utils
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                vHUDController.instance.ShowText("Checkpoint reached!");
+                
+                vHUDController.instance.ShowText("Checkpoint Reached!");
                 gm.spawnPoint = this.gameObject.transform;
                 onTriggerEnter.Invoke();
                 this.gameObject.SetActive(false);
