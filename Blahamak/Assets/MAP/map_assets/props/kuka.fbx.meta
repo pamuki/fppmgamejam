@@ -3,7 +3,12 @@ guid: f69bebbbd899704418614c960d4c0461
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kuka
+    second: {fileID: 2100000, guid: a48ccf9700af324419639159311d2885, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
