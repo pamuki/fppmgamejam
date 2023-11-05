@@ -9,6 +9,7 @@ public class mainmenuScript : MonoBehaviour
     public bool isPaused;
 
     void Start(){
+        Screen.SetResolution(640, 480, FullScreenMode.ExclusiveFullScreen, new RefreshRate() { numerator = 60, denominator = 1 });
         mainMenu.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
